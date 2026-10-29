@@ -1,0 +1,2946 @@
+{
+ "tested": "28 October 2026",
+ "php": "8.6.0RC4",
+ "wordpress": "7.1.1",
+ "scanned": 100,
+ "files": 55760,
+ "clean": [
+  {
+   "slug": "contact-form-7",
+   "name": "Contact Form 7",
+   "installs": 10000000,
+   "version": "6.2.3"
+  },
+  {
+   "slug": "classic-editor",
+   "name": "Classic Editor",
+   "installs": 8000000,
+   "version": "1.7.0"
+  },
+  {
+   "slug": "akismet",
+   "name": "Akismet Anti-spam: Spam Protection",
+   "installs": 5000000,
+   "version": "5.7.2"
+  },
+  {
+   "slug": "all-in-one-wp-migration",
+   "name": "All-in-One WP Migration and Backup",
+   "installs": 5000000,
+   "version": "7.113"
+  },
+  {
+   "slug": "wpforms-lite",
+   "name": "WPForms – AI Form Builder for WordPress – Contact Forms, Payment Forms, Survey Form, Quiz & More",
+   "installs": 5000000,
+   "version": "2.0.3"
+  },
+  {
+   "slug": "duplicate-page",
+   "name": "Duplicate Page",
+   "installs": 3000000,
+   "version": "4.5.9"
+  },
+  {
+   "slug": "duplicate-post",
+   "name": "Yoast Duplicate Post",
+   "installs": 3000000,
+   "version": "4.7"
+  },
+  {
+   "slug": "hostinger",
+   "name": "Hostinger Tools",
+   "installs": 3000000,
+   "version": "3.0.80"
+  },
+  {
+   "slug": "insert-headers-and-footers",
+   "name": "WPCode – Insert Headers and Footers + Custom Code Snippets – WordPress Code Manager",
+   "installs": 3000000,
+   "version": "2.4.0"
+  },
+  {
+   "slug": "jetpack",
+   "name": "Jetpack – AI Agents & MCP, Security, Backup & Analytics",
+   "installs": 3000000,
+   "version": "16.3.1"
+  },
+  {
+   "slug": "advanced-custom-fields",
+   "name": "Advanced Custom Fields (ACF®)",
+   "installs": 2000000,
+   "version": "6.8.10"
+  },
+  {
+   "slug": "classic-widgets",
+   "name": "Classic Widgets",
+   "installs": 2000000,
+   "version": "0.3"
+  },
+  {
+   "slug": "header-footer-elementor",
+   "name": "Ultimate Addons for Elementor – Widgets, Templates, WooCommerce & Header Footer Builder",
+   "installs": 2000000,
+   "version": "2.9.5"
+  },
+  {
+   "slug": "redirection",
+   "name": "Redirection",
+   "installs": 2000000,
+   "version": "5.10.1"
+  },
+  {
+   "slug": "wordpress-importer",
+   "name": "WordPress Importer",
+   "installs": 2000000,
+   "version": "0.9.7"
+  },
+  {
+   "slug": "wps-hide-login",
+   "name": "WPS Hide Login",
+   "installs": 2000000,
+   "version": "1.9.19"
+  },
+  {
+   "slug": "all-in-one-wp-security-and-firewall",
+   "name": "All-In-One Security (AIOS) – Security and Firewall",
+   "installs": 1000000,
+   "version": "5.5.0"
+  },
+  {
+   "slug": "astra-sites",
+   "name": "Starter Templates: AI-Powered Website Templates for Elementor & Gutenberg",
+   "installs": 1000000,
+   "version": "4.7.9"
+  },
+  {
+   "slug": "better-search-replace",
+   "name": "Better Search Replace",
+   "installs": 1000000,
+   "version": "1.4.11"
+  },
+  {
+   "slug": "code-snippets",
+   "name": "Code Snippets",
+   "installs": 1000000,
+   "version": "4.0.0"
+  },
+  {
+   "slug": "cookie-law-info",
+   "name": "CookieYes – Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice)",
+   "installs": 1000000,
+   "version": "3.5.8"
+  },
+  {
+   "slug": "custom-post-type-ui",
+   "name": "Custom Post Type UI",
+   "installs": 1000000,
+   "version": "1.19.3"
+  },
+  {
+   "slug": "disable-comments",
+   "name": "Disable Comments",
+   "installs": 1000000,
+   "version": "2.9.1"
+  },
+  {
+   "slug": "essential-addons-for-elementor-lite",
+   "name": "Essential Addons for Elementor – Popular Elementor Templates & Widgets",
+   "installs": 1000000,
+   "version": "6.8.8"
+  },
+  {
+   "slug": "google-sitemap-generator",
+   "name": "XML Sitemap Generator for Google",
+   "installs": 1000000,
+   "version": "4.1.25"
+  },
+  {
+   "slug": "hostinger-reach",
+   "name": "Hostinger Reach – AI-Powered Email Marketing for WordPress",
+   "installs": 1000000,
+   "version": "1.8.7"
+  },
+  {
+   "slug": "image-optimization",
+   "name": "Image Optimizer – Compress Images and Convert to WebP or AVIF",
+   "installs": 1000000,
+   "version": "1.7.7"
+  },
+  {
+   "slug": "loco-translate",
+   "name": "Loco Translate",
+   "installs": 1000000,
+   "version": "2.8.9"
+  },
+  {
+   "slug": "loginizer",
+   "name": "Loginizer",
+   "installs": 1000000,
+   "version": "2.1.2"
+  },
+  {
+   "slug": "mailchimp-for-wp",
+   "name": "MC4WP: Mailchimp for WordPress",
+   "installs": 1000000,
+   "version": "4.14.1"
+  },
+  {
+   "slug": "maintenance",
+   "name": "Maintenance",
+   "installs": 1000000,
+   "version": "4.32"
+  },
+  {
+   "slug": "one-click-demo-import",
+   "name": "One Click Demo Import",
+   "installs": 1000000,
+   "version": "3.4.1"
+  },
+  {
+   "slug": "optinmonster",
+   "name": "Popup Builder & Popup Maker for WordPress – OptinMonster Email Marketing and Lead Generation",
+   "installs": 1000000,
+   "version": "2.17.1"
+  },
+  {
+   "slug": "regenerate-thumbnails",
+   "name": "Regenerate Thumbnails",
+   "installs": 1000000,
+   "version": "3.1.6"
+  },
+  {
+   "slug": "sg-ai-studio",
+   "name": "AI Agent by SiteGround",
+   "installs": 1000000,
+   "version": "1.3.1"
+  },
+  {
+   "slug": "sg-security",
+   "name": "Security Optimizer – The All-In-One Protection Plugin",
+   "installs": 1000000,
+   "version": "1.6.9"
+  },
+  {
+   "slug": "svg-support",
+   "name": "SVG Support",
+   "installs": 1000000,
+   "version": "2.6.1"
+  },
+  {
+   "slug": "tinymce-advanced",
+   "name": "Advanced Editor Tools",
+   "installs": 1000000,
+   "version": "5.10.1"
+  },
+  {
+   "slug": "ultimate-addons-for-gutenberg",
+   "name": "Spectra Legacy – Gutenberg Blocks",
+   "installs": 1000000,
+   "version": "2.20.5"
+  },
+  {
+   "slug": "wp-fastest-cache",
+   "name": "WP Fastest Cache – WordPress Cache Plugin",
+   "installs": 1000000,
+   "version": "1.5.3"
+  },
+  {
+   "slug": "wp-file-manager",
+   "name": "File Manager",
+   "installs": 1000000,
+   "version": "8.0.6"
+  },
+  {
+   "slug": "wp-multibyte-patch",
+   "name": "WP Multibyte Patch",
+   "installs": 1000000,
+   "version": "2.9.4"
+  },
+  {
+   "slug": "wp-optimize",
+   "name": "WP-Optimize – Cache, Compress images, Minify & Clean database to boost page speed & performance",
+   "installs": 1000000,
+   "version": "4.7.0"
+  },
+  {
+   "slug": "wp-reviews-plugin-for-google",
+   "name": "Widgets for Google Reviews",
+   "installs": 1000000,
+   "version": "14.2"
+  },
+  {
+   "slug": "wp-super-cache",
+   "name": "WP Super Cache",
+   "installs": 1000000,
+   "version": "3.1.4"
+  },
+  {
+   "slug": "gtranslate",
+   "name": "Translate WordPress with GTranslate",
+   "installs": 900000,
+   "version": "5.0.2"
+  },
+  {
+   "slug": "imagify",
+   "name": "Imagify Image Optimization: Optimize Images | Compress & Convert to WebP/AVIF",
+   "installs": 900000,
+   "version": "2.3.4"
+  },
+  {
+   "slug": "polylang",
+   "name": "Polylang",
+   "installs": 900000,
+   "version": "3.9.1"
+  },
+  {
+   "slug": "autoptimize",
+   "name": "Autoptimize",
+   "installs": 800000,
+   "version": "3.1.17"
+  },
+  {
+   "slug": "breadcrumb-navxt",
+   "name": "Breadcrumb NavXT",
+   "installs": 800000,
+   "version": "7.5.2"
+  },
+  {
+   "slug": "cookie-notice",
+   "name": "Cookie Compliance for WordPress – Cookie Consent, GDPR & CCPA",
+   "installs": 800000,
+   "version": "3.1.17"
+  },
+  {
+   "slug": "flamingo",
+   "name": "Flamingo",
+   "installs": 800000,
+   "version": "2.6.4"
+  },
+  {
+   "slug": "smart-slider-3",
+   "name": "Smart Slider 3",
+   "installs": 800000,
+   "version": "3.5.1.40"
+  },
+  {
+   "slug": "woocommerce-payments",
+   "name": "WooPayments: Integrated WooCommerce Payments",
+   "installs": 800000,
+   "version": "11.2.0"
+  },
+  {
+   "slug": "antispam-bee",
+   "name": "Antispam Bee",
+   "installs": 700000,
+   "version": "2.11.13"
+  },
+  {
+   "slug": "user-role-editor",
+   "name": "User Role Editor",
+   "installs": 700000,
+   "version": "4.66.3"
+  },
+  {
+   "slug": "woocommerce-gateway-stripe",
+   "name": "WooCommerce Stripe Payment Gateway",
+   "installs": 700000,
+   "version": "11.1.1"
+  },
+  {
+   "slug": "click-to-chat-for-whatsapp",
+   "name": "Click to Chat – HoliThemes",
+   "installs": 600000,
+   "version": "4.45"
+  },
+  {
+   "slug": "popup-maker",
+   "name": "Popup Maker – Boost Sales, Conversions, Optins, Subscribers with the Ultimate WP Popup Builder",
+   "installs": 600000,
+   "version": "1.25.0"
+  },
+  {
+   "slug": "premium-addons-for-elementor",
+   "name": "Premium Addons for Elementor – AI-Ready Elementor Addons, Widgets & Templates",
+   "installs": 600000,
+   "version": "4.11.117"
+  },
+  {
+   "slug": "tablepress",
+   "name": "TablePress – Tables in WordPress made easy",
+   "installs": 600000,
+   "version": "3.4.1"
+  }
+ ],
+ "plugins": [
+  {
+   "slug": "elementor",
+   "name": "Elementor Website Builder – more than just a page builder",
+   "installs": 10000000,
+   "version": "4.3.5",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "modules/atomic-widgets/prop-dependencies/manager.php",
+     "line": 49,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "namespace-constant",
+     "file": "modules/wp-rest/base/query.php",
+     "line": 13,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor_prefixed/twig/twig/twig/src/NodeVisitor/SafeAnalysisNodeVisitor.php",
+     "line": 37,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$hash = \\spl_object_hash($node);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor_prefixed/twig/twig/twig/src/NodeVisitor/SafeAnalysisNodeVisitor.php",
+     "line": 53,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$hash = \\spl_object_hash($node);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "wordpress-seo",
+   "name": "Yoast SEO – Advanced SEO with real-time guidance and built-in AI",
+   "installs": 10000000,
+   "version": "28.8",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor_prefixed/guzzlehttp/guzzle/src/HandlerStack.php",
+     "line": 244,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . \\spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "vendor_prefixed/guzzlehttp/promises/src/Is.php",
+     "line": 6,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    }
+   ]
+  },
+  {
+   "slug": "litespeed-cache",
+   "name": "LiteSpeed Cache",
+   "installs": 7000000,
+   "version": "7.9.2",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "src/cloud-auth-callback.trait.php",
+     "line": 396,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$request_key = spl_object_hash( $request ) . ':' . hash( 'sha256', $action );",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "woocommerce",
+   "name": "WooCommerce",
+   "installs": 7000000,
+   "version": "11.2.1",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "is_a-string",
+     "file": "includes/abstracts/abstract-wc-data.php",
+     "line": 981,
+     "when": "runtime",
+     "seen": "admin",
+     "vendored": false,
+     "fix": "Use <code>$value instanceof ClassName</code>, or pass <code>true</code> as the third argument if strings are meant to be accepted. PHP 8.6 complains whenever <code>is_a()</code> gets a string while <code>$allow_string</code> is false.",
+     "msg": "Calling is_a() with a string when $allow_string is false"
+    },
+    {
+     "kind": "constructor-return",
+     "file": "src/Admin/API/Reports/GenericQuery.php",
+     "line": 50,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "is_integer",
+     "file": "src/Internal/ProductDownloads/ApprovedDirectories/Admin/UI.php",
+     "line": 209,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ( is_integer( $upserted ) ) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "src/Utilities/CallbackUtil.php",
+     "line": 46,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'Closure@' . spl_object_hash( $callback );",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/opis/json-schema/src/SchemaLoader.php",
+     "line": 442,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$data = spl_object_hash($data);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "google-site-kit",
+   "name": "Site Kit by Google – Analytics, Search Console, AdSense, Speed",
+   "installs": 5000000,
+   "version": "1.190.0",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "is_integer",
+     "file": "includes/Core/Expirables/Expirable_Items.php",
+     "line": 125,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ( is_integer( $ttl ) ) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "third-party/guzzlehttp/guzzle/src/HandlerStack.php",
+     "line": 244,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . \\spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "third-party/guzzlehttp/promises/src/Is.php",
+     "line": 6,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "third-party/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 4746,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "wordfence",
+   "name": "Wordfence Security – Firewall, Malware Scan, and Login Security",
+   "installs": 5000000,
+   "version": "9.0.2",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "namespace-constant",
+     "file": "modules/login-security/classes/controller/rest.php",
+     "line": 8,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "waf/pomo/streams.php",
+     "line": 319,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "seo-by-rank-math",
+   "name": "Rank Math SEO – AI SEO Tools to Dominate SEO Rankings",
+   "installs": 4000000,
+   "version": "1.0.280",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "namespace-constant",
+     "file": "includes/modules/links/Api/class-controller.php",
+     "line": 37,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/cmb2/cmb2/includes/CMB2_Hookup_Base.php",
+     "line": 77,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$args[1] = spl_object_hash( $args[1] );",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/cmb2/cmb2/includes/CMB2_Hookup_Base.php",
+     "line": 79,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$args[1][0] = spl_object_hash( $hook[0] );",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "updraftplus",
+   "name": "UpdraftPlus: WP Backup & Migration Plugin",
+   "installs": 4000000,
+   "version": "1.26.14",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "is_integer",
+     "file": "admin.php",
+     "line": 6766,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (is_integer($port)) $ports[] = $port;",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "backup.php",
+     "line": 1828,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (is_integer($start_record) || is_array($start_record)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "class-updraftplus.php",
+     "line": 1697,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (is_integer($ret)) $ret -= $start_offset;",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "class-updraftplus.php",
+     "line": 1703,
+     "when": "call",
+     "call": "is_integer",
+     "code": "$returned_bytes = is_integer($ret) ? $ret : strlen($ret);",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "class-updraftplus.php",
+     "line": 1707,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (!is_integer($ret) && !fwrite($fh, $ret)) throw new Exception('Write failure (start offset: '.$start_offset.', bytes: '.strlen($ret).'; requested: '.$requested_bytes.')');",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "includes/class-zip.php",
+     "line": 372,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "includes/class-zip.php",
+     "line": 374,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php",
+     "line": 67,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "->exceptionForRequest[spl_object_hash($request)] = $exception;",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php",
+     "line": 81,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$oid = spl_object_hash($request);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "is_integer",
+     "file": "vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php",
+     "line": 196,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ($this->castIntegerToStringType && $param->getType() == 'string' && is_integer($value)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php",
+     "line": 274,
+     "when": "call",
+     "call": "is_integer",
+     "code": "} elseif ($t == 'integer' && is_integer($value)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/guzzlehttp/guzzle/src/HandlerStack.php",
+     "line": 275,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "vendor/guzzlehttp/promises/src/Is.php",
+     "line": 5,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 5554,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "is_integer",
+     "file": "vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Base.php",
+     "line": 294,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (is_string($info) || is_integer($info)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/symfony/polyfill-php72/Php72.php",
+     "line": 94,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "if (null === $hash = spl_object_hash($object)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/symfony/polyfill-php72/Php72.php",
+     "line": 170,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "self::$hashMask ^= hexdec(substr(spl_object_hash($obj), 16 - (\\PHP_INT_SIZE * 2 - 1), (\\PHP_INT_SIZE * 2 - 1)));",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "wp-mail-smtp",
+   "name": "WP Mail SMTP by WPForms – SMTP for Reliable Email Delivery with Gmail, Outlook, Amazon SES, Brevo, Other SMTP & More",
+   "installs": 4000000,
+   "version": "4.10.3",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor_prefixed/guzzlehttp/guzzle/src/HandlerStack.php",
+     "line": 244,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . \\spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "vendor_prefixed/guzzlehttp/promises/src/Is.php",
+     "line": 6,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    }
+   ]
+  },
+  {
+   "slug": "really-simple-ssl",
+   "name": "Really Simple Security – Simple and Performant Security (formerly Really Simple SSL)",
+   "installs": 3000000,
+   "version": "9.8.4",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "namespace-constant",
+     "file": "security/wordpress/two-fa/class-rsssl-two-factor-on-board-api.php",
+     "line": 31,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    }
+   ]
+  },
+  {
+   "slug": "all-in-one-seo-pack",
+   "name": "All in One SEO – AI SEO Plugin to Boost SEO Rankings & Traffic (Schema, Local SEO, Sitemap & SEO Insights)",
+   "installs": 2000000,
+   "version": "5.0.4",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "app/Common/Models/Model.php",
+     "line": 144,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "app/Common/Models/Model.php",
+     "line": 147,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "app/Common/Models/Model.php",
+     "line": 150,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "is_a-string",
+     "file": "app/Common/Traits/Helpers/WpContext.php",
+     "line": 249,
+     "when": "runtime",
+     "seen": "admin",
+     "vendored": false,
+     "fix": "Use <code>$value instanceof ClassName</code>, or pass <code>true</code> as the third argument if strings are meant to be accepted. PHP 8.6 complains whenever <code>is_a()</code> gets a string while <code>$allow_string</code> is false.",
+     "msg": "Calling is_a() with a string when $allow_string is false"
+    }
+   ]
+  },
+  {
+   "slug": "google-analytics-for-wordpress",
+   "name": "MonsterInsights – Google Analytics Dashboard for WordPress (Website Stats Made Easy)",
+   "installs": 2000000,
+   "version": "11.3.0",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "includes/popular-posts/class-popular-posts-themes.php",
+     "line": 69,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "includes/popular-posts/class-popular-posts-themes.php",
+     "line": 71,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "includes/popular-posts/class-popular-posts-themes.php",
+     "line": 75,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lite/includes/admin/dashboard-widget.php",
+     "line": 70,
+     "when": "compile",
+     "seen": "admin",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lite/includes/admin/dashboard-widget.php",
+     "line": 76,
+     "when": "compile",
+     "seen": "admin",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "complianz-gdpr",
+   "name": "Complianz GDPR/CCPA Cookie Consent Banner",
+   "installs": 1000000,
+   "version": "7.5.6",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "mbregex",
+     "file": "assets/vendor/mpdf/mpdf/src/Mpdf.php",
+     "line": 1149,
+     "when": "call",
+     "call": "mb_regex_encoding",
+     "code": "$this->originalMbRegexEnc = mb_regex_encoding();",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>preg_replace()</code> / <code>preg_split()</code> with the <code>/u</code> flag; mbregex is deprecated."
+    },
+    {
+     "kind": "mbregex",
+     "file": "assets/vendor/mpdf/mpdf/src/Mpdf.php",
+     "line": 1423,
+     "when": "call",
+     "call": "mb_regex_encoding",
+     "code": "@mb_regex_encoding('UTF-8'); // required only for mb_ereg... and mb_split functions",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>preg_replace()</code> / <code>preg_split()</code> with the <code>/u</code> flag; mbregex is deprecated."
+    },
+    {
+     "kind": "mbregex",
+     "file": "assets/vendor/mpdf/mpdf/src/Mpdf.php",
+     "line": 1573,
+     "when": "call",
+     "call": "mb_regex_encoding",
+     "code": "@mb_regex_encoding($this->originalMbRegexEnc);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>preg_replace()</code> / <code>preg_split()</code> with the <code>/u</code> flag; mbregex is deprecated."
+    },
+    {
+     "kind": "strcoll",
+     "file": "assets/vendor/mpdf/mpdf/src/Mpdf.php",
+     "line": 24140,
+     "when": "call",
+     "call": "strcoll",
+     "code": "return strcoll(strtolower($a['uf']), strtolower($b['uf']));",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>Collator::compare()</code> (intl) or a plain comparison."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "assets/vendor/myclabs/deep-copy/src/DeepCopy/DeepCopy.php",
+     "line": 191,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$objectHash = spl_object_hash($object);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "assets/vendor/setasign/fpdi/src/FpdiTrait.php",
+     "line": 168,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$id = \\spl_object_hash($file);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "duplicator",
+   "name": "Duplicator – Backups & Migration Plugin – Cloud Backups, Scheduled Backups, & More",
+   "installs": 1000000,
+   "version": "5.1.0",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "installer/dup-installer/src/Core/Hooks/Hook.php",
+     "line": 590,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return spl_object_hash($function[0]) . $function[1];",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor-prefixed/andreamk/jsonserialize/src/AbstractJsonSerializeObjData.php",
+     "line": 279,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return $useObjId ? spl_object_id($obj) : spl_object_hash($obj);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "vendor-prefixed/guzzlehttp/promises/src/Is.php",
+     "line": 6,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor-prefixed/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 4746,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "elementskit-lite",
+   "name": "ElementsKit Elementor Addons – Advanced Widgets & Templates Addons for Elementor",
+   "installs": 1000000,
+   "version": "4.0.9",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "namespace-constant",
+     "file": "mcp/rest-proxy.php",
+     "line": 21,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    }
+   ]
+  },
+  {
+   "slug": "ewww-image-optimizer",
+   "name": "EWWW Image Optimizer",
+   "installs": 1000000,
+   "version": "8.9.0",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "classes/class-backup.php",
+     "line": 70,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "classes/class-js-webp.php",
+     "line": 87,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "classes/class-lazy-load.php",
+     "line": 193,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "classes/class-picture-webp.php",
+     "line": 50,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "classes/class-picture-webp.php",
+     "line": 53,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "instagram-feed",
+   "name": "Smash Balloon Social Photo Feed – Easy Social Feeds Plugin",
+   "installs": 1000000,
+   "version": "6.14.0",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    500,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "inc/class-sb-instagram-settings.php",
+     "line": 103,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/laravel/serializable-closure/src/Serializers/Native.php",
+     "line": 113,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$this->reference = spl_object_hash($this->closure);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "limit-login-attempts-reloaded",
+   "name": "Limit Login Attempts Security – Login Security, 2FA, Firewall, Brute Force Prevention",
+   "installs": 1000000,
+   "version": "3.3.10",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "core/AuthenticateHooksInspector.php",
+     "line": 191,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'o:' . spl_object_hash( $callback[0] ) . ':' . (string) $callback[1];",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "core/AuthenticateHooksInspector.php",
+     "line": 199,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'f:' . spl_object_hash( $callback );",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "core/CloudApp.php",
+     "line": 59,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "safe-svg",
+   "name": "Safe SVG",
+   "installs": 1000000,
+   "version": "2.5.2",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/enshrined/svg-sanitize/src/ElementReference/Subject.php",
+     "line": 118,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$onPath[spl_object_hash($subject)] = true;",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/enshrined/svg-sanitize/src/ElementReference/Subject.php",
+     "line": 142,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$key = spl_object_hash($this);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "sg-cachepress",
+   "name": "Speed Optimizer – The All-In-One Performance-Boosting Plugin",
+   "installs": 1000000,
+   "version": "7.8.5",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "core/Htaccess/Htaccess.php",
+     "line": 85,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "worker",
+   "name": "ManageWP Worker",
+   "installs": 1000000,
+   "version": "4.9.38",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "is_integer",
+     "file": "src/Gelf/Publisher.php",
+     "line": 228,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (!is_integer($sequence) || !is_integer($sequenceSize)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "src/Gelf/Publisher.php",
+     "line": 228,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (!is_integer($sequence) || !is_integer($sequenceSize)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "src/MWP/Http/JsonResponse.php",
+     "line": 50,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$objectHash = spl_object_hash($structure);",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "src/PHPSecLib/System/SSH/Agent.php",
+     "line": 252,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "wp-smushit",
+   "name": "Smush – Image Optimization, Compression, Lazy Load, WebP & CDN",
+   "installs": 1000000,
+   "version": "4.3.5",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "core/external/hub-connector/lib/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 4746,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor_prefixed/guzzlehttp/guzzle/src/HandlerStack.php",
+     "line": 236,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . \\spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "vendor_prefixed/guzzlehttp/promises/src/Is.php",
+     "line": 6,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    }
+   ]
+  },
+  {
+   "slug": "redux-framework",
+   "name": "Redux Framework",
+   "installs": 900000,
+   "version": "4.5.16",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "is_integer",
+     "file": "redux-core/inc/extensions/repeater/repeater/class-redux-repeater.php",
+     "line": 238,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ( isset( $this->field['limit'] ) && is_integer( $this->field['limit'] ) ) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "redux-core/inc/extensions/repeater/repeater/class-redux-repeater.php",
+     "line": 405,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ( isset( $field['limit'] ) && is_integer( $field['limit'] ) ) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    }
+   ]
+  },
+  {
+   "slug": "w3-total-cache",
+   "name": "W3 Total Cache",
+   "installs": 900000,
+   "version": "2.11.0",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "w3-total-cache-api.php",
+     "line": 608,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "Cache_Memcache.php",
+     "line": 71,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "Cache_Memcache.php",
+     "line": 80,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "Cache_Memcached.php",
+     "line": 63,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "Cache_Memcached.php",
+     "line": 65,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "Cache_Memcached.php",
+     "line": 69,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "Cache_Nginx_Memcached.php",
+     "line": 54,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "Cache_Nginx_Memcached.php",
+     "line": 56,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "Cache_Nginx_Memcached.php",
+     "line": 60,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "destructor-return",
+     "file": "lib/Db/mssql.php",
+     "line": 567,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__destruct()</code> to a bare <code>return;</code>."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lib/SNS/lib/requestcore/requestcore.class.php",
+     "line": 225,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "destructor-return",
+     "file": "lib/SNS/lib/requestcore/requestcore.class.php",
+     "line": 245,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__destruct()</code> to a bare <code>return;</code>."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lib/SNS/lib/requestcore/requestcore.class.php",
+     "line": 1005,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lib/SNS/sdk.class.php",
+     "line": 386,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lib/SNS/sdk.class.php",
+     "line": 393,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lib/SNS/services/sns.class.php",
+     "line": 141,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lib/SNS/services/sns.class.php",
+     "line": 144,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lib/SNS/utilities/request.class.php",
+     "line": 62,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "lib/SNS/utilities/utilities.class.php",
+     "line": 61,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/aws/aws-crt-php/src/AWS/CRT/NativeResource.php",
+     "line": 24,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "self::$resources[spl_object_hash($this)] = 1;",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/aws/aws-crt-php/src/AWS/CRT/NativeResource.php",
+     "line": 40,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "unset(self::$resources[spl_object_hash($this)]);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/aws/aws-sdk-php/src/HandlerList.php",
+     "line": 373,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/aws/aws-sdk-php/src/TraceMiddleware.php",
+     "line": 160,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "'instance' => spl_object_hash($cmd),",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/aws/aws-sdk-php/src/TraceMiddleware.php",
+     "line": 171,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "'instance' => spl_object_hash($request),",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/aws/aws-sdk-php/src/TraceMiddleware.php",
+     "line": 185,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "'instance'   => spl_object_hash($response),",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/aws/aws-sdk-php/src/TraceMiddleware.php",
+     "line": 196,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "'instance' => spl_object_hash($value),",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/aws/aws-sdk-php/src/TraceMiddleware.php",
+     "line": 208,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "'instance'   => spl_object_hash($e),",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "vendor/guzzlehttp/promises/src/Is.php",
+     "line": 7,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    },
+    {
+     "kind": "is_double",
+     "file": "vendor/microsoft/azure-storage-common/src/Common/Internal/Utilities.php",
+     "line": 879,
+     "when": "call",
+     "call": "is_double",
+     "code": "return is_numeric($value) && is_double($value + 0);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_float()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/sebastian/recursion-context/src/Context.php",
+     "line": 129,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return @spl_object_hash($object);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/sebastian/recursion-context/src/Context.php",
+     "line": 152,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return @spl_object_hash($value);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "wpvivid-backuprestore",
+   "name": "WPvivid — Backup, Migration & Staging",
+   "installs": 900000,
+   "version": "0.9.136",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "is_integer",
+     "file": "includes/zip/class-wpvivid-pclzip.php",
+     "line": 299,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ((is_integer($v_arg_list[0])) && ($v_arg_list[0] > 77000)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "includes/zip/class-wpvivid-pclzip.php",
+     "line": 482,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ((is_integer($v_arg_list[0])) && ($v_arg_list[0] > 77000)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "includes/zip/class-wpvivid-pclzip.php",
+     "line": 735,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ((is_integer($v_arg_list[0])) && ($v_arg_list[0] > 77000)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "includes/zip/class-wpvivid-pclzip.php",
+     "line": 896,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ((is_integer($v_arg_list[0])) && ($v_arg_list[0] > 77000)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "includes/zip/class-wpvivid-pclzip.php",
+     "line": 1482,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ((!is_integer($v_value)) || ($v_value<0)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "includes/zip/class-wpvivid-pclzip.php",
+     "line": 1649,
+     "when": "call",
+     "call": "is_integer",
+     "code": "else if (is_integer($p_options_list[$i+1])) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "includes/zip/class-wpvivid-pclzip.php",
+     "line": 1947,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (!is_integer($v_value)) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php",
+     "line": 67,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "->exceptionForRequest[spl_object_hash($request)] = $exception;",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php",
+     "line": 81,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$oid = spl_object_hash($request);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "is_integer",
+     "file": "vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php",
+     "line": 196,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ($this->castIntegerToStringType && $param->getType() == 'string' && is_integer($value)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php",
+     "line": 274,
+     "when": "call",
+     "call": "is_integer",
+     "code": "} elseif ($t == 'integer' && is_integer($value)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/guzzlehttp/guzzle/src/HandlerStack.php",
+     "line": 271,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 5554,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "fluentform",
+   "name": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
+   "installs": 800000,
+   "version": "6.2.16",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/wpfluent/framework/src/WPFluent/Database/Orm/Concerns/HasGlobalScopes.php",
+     "line": 26,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return static::$globalScopes[static::class][spl_object_hash($scope)] = $scope;",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "is_double",
+     "file": "vendor/wpfluent/framework/src/WPFluent/Database/Query/WPDBConnection.php",
+     "line": 496,
+     "when": "call",
+     "call": "is_double",
+     "code": "} elseif (is_double($binding)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_float()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/wpfluent/framework/src/WPFluent/Support/Once.php",
+     "line": 45,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return is_object($argument) ? spl_object_hash($argument) : $argument;",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "google-listings-and-ads",
+   "name": "Google for WooCommerce",
+   "installs": 800000,
+   "version": "3.10.0",
+   "runtime_tested": false,
+   "activate_ok": false,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/google/gax/src/Testing/MessageAwareExporter.php",
+     "line": 42,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "\\spl_object_hash($value)",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "is_integer",
+     "file": "vendor/google/protobuf/src/Google/Protobuf/Internal/GPBUtil.php",
+     "line": 122,
+     "when": "call",
+     "call": "is_integer",
+     "code": "is_integer($var) ||",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "vendor/google/protobuf/src/Google/Protobuf/Internal/Message.php",
+     "line": 853,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if (is_integer($value)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "is_double",
+     "file": "vendor/google/protobuf/src/Google/Protobuf/Internal/Message.php",
+     "line": 1183,
+     "when": "call",
+     "call": "is_double",
+     "code": "} elseif (is_double($array) || is_integer($array)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_float()</code>."
+    },
+    {
+     "kind": "is_integer",
+     "file": "vendor/google/protobuf/src/Google/Protobuf/Internal/Message.php",
+     "line": 1183,
+     "when": "call",
+     "call": "is_integer",
+     "code": "} elseif (is_double($array) || is_integer($array)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "vendor/guzzlehttp/promises/src/Is.php",
+     "line": 7,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 5554,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/symfony/validator/Context/ExecutionContext.php",
+     "line": 362,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$this->cachedObjectsRefs[$object] = spl_object_hash($object);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "vendor/symfony/validator/Validator/RecursiveContextualValidator.php",
+     "line": 773,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$cacheKey = spl_object_hash($object);",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "woocommerce-paypal-payments",
+   "name": "WooCommerce PayPal Payments",
+   "installs": 800000,
+   "version": "4.2.0",
+   "runtime_tested": false,
+   "activate_ok": false,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "namespace-constant",
+     "file": "modules/ppcp-settings/src/Endpoint/RestEndpoint.php",
+     "line": 21,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    },
+    {
+     "kind": "namespace-constant",
+     "file": "modules/ppcp-store-sync/src/Endpoint/AgenticRestEndpoint.php",
+     "line": 39,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    },
+    {
+     "kind": "namespace-constant",
+     "file": "modules/ppcp-wc-gateway/src/Endpoint/ShippingCallbackEndpoint.php",
+     "line": 19,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    },
+    {
+     "kind": "namespace-constant",
+     "file": "modules/ppcp-webhooks/src/IncomingWebhookEndpoint.php",
+     "line": 27,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    }
+   ]
+  },
+  {
+   "slug": "better-wp-security",
+   "name": "Kadence Security – Password, Two Factor Authentication, and Brute Force Protection",
+   "installs": 700000,
+   "version": "10.0.6",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "core/modules/two-factor/providers/class.two-factor-backup-codes.php",
+     "line": 53,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "core/modules/two-factor/providers/class.two-factor-email.php",
+     "line": 39,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "creame-whatsapp-me",
+   "name": "Joinchat – Enhanced “click to chat”",
+   "installs": 700000,
+   "version": "6.4.2",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "namespace-constant",
+     "file": "includes/class-joinchat-abilities.php",
+     "line": 25,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    }
+   ]
+  },
+  {
+   "slug": "duracelltomi-google-tag-manager",
+   "name": "GTM4WP – A Google Tag Manager (GTM) plugin for WordPress",
+   "installs": 700000,
+   "version": "2.0.6",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "namespace-constant",
+     "file": "src/Modules/WooCommerce/StoreApiData.php",
+     "line": 35,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    }
+   ]
+  },
+  {
+   "slug": "fluent-smtp",
+   "name": "FluentSMTP – WP Mail SMTP Plugin with Amazon SES, SendGrid, Mailgun, Postmark, Cloudflare, toSend, Gmail and Any SMTP",
+   "installs": 700000,
+   "version": "2.4.1",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "app/Services/Html2Text.php",
+     "line": 241,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "includes/libs/google-api-client/build/vendor/guzzlehttp/guzzle/src/HandlerStack.php",
+     "line": 236,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . \\spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "includes/libs/google-api-client/build/vendor/guzzlehttp/promises/src/Is.php",
+     "line": 6,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "includes/libs/google-api-client/build/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 4670,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . \\spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "mainwp-child",
+   "name": "MainWP Child – Securely Connects to the MainWP Dashboard to Manage Multiple Sites",
+   "installs": 700000,
+   "version": "6.3",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "mbregex",
+     "file": "class/class-mainwp-helper.php",
+     "line": 905,
+     "when": "call",
+     "call": "mb_ereg_replace",
+     "code": "$filename = mb_ereg_replace( '([^\\w\\s\\d\\-_~,;:\\[\\]\\(\\).])', '', $filename );",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>preg_replace()</code> / <code>preg_split()</code> with the <code>/u</code> flag; mbregex is deprecated."
+    },
+    {
+     "kind": "mbregex",
+     "file": "class/class-mainwp-helper.php",
+     "line": 907,
+     "when": "call",
+     "call": "mb_ereg_replace",
+     "code": "$filename = mb_ereg_replace( '([\\.]{2,})', '', $filename );",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>preg_replace()</code> / <code>preg_split()</code> with the <code>/u</code> flag; mbregex is deprecated."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 5554,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "backuply",
+   "name": "Backuply – Backup, Restore, Migrate and Clone",
+   "installs": 600000,
+   "version": "1.6.0",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "backuplytar.php",
+     "line": 66,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "backuplytar.php",
+     "line": 83,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "restore_ins.php",
+     "line": 295,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "restore_ins.php",
+     "line": 312,
+     "when": "compile",
+     "seen": "",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "is_integer",
+     "file": "lib/ftp.php",
+     "line": 262,
+     "when": "call",
+     "call": "is_long",
+     "code": "if(!is_long($port)) {",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>is_int()</code>."
+    }
+   ]
+  },
+  {
+   "slug": "coming-soon",
+   "name": "Website Builder by SeedProd — Theme Builder, Landing Page Builder, Coming Soon Page, Maintenance Mode",
+   "installs": 600000,
+   "version": "6.20.10",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "app/render-csp-mm.php",
+     "line": 34,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "app/render-csp-mm.php",
+     "line": 45,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "enable-media-replace",
+   "name": "Enable Media Replace",
+   "installs": 600000,
+   "version": "4.2.3",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "build/shortpixel/filesystem/src/Model/File/FileModel.php",
+     "line": 62,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "build/shortpixel/replacer2/src/Modules/SmartSlider.php",
+     "line": 34,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "forminator",
+   "name": "Forminator Forms – Contact Form, Payment Form & Custom Form Builder",
+   "installs": 600000,
+   "version": "1.58.3",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "spl_object_hash",
+     "file": "addons/pro/googlesheet/lib/external/vendor-prefixed/guzzlehttp/guzzle/src/HandlerStack.php",
+     "line": 236,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return 'callable(' . \\spl_object_hash($fn) . ')';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "guzzle-is",
+     "file": "addons/pro/googlesheet/lib/external/vendor-prefixed/guzzlehttp/promises/src/Is.php",
+     "line": 6,
+     "when": "compile",
+     "seen": "",
+     "vendored": true,
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "addons/pro/googlesheet/lib/external/vendor-prefixed/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 4558,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . \\spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "library/lib/hub-connector/lib/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php",
+     "line": 4746,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "return '{' . spl_object_hash($this) . '}';",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  },
+  {
+   "slug": "post-types-order",
+   "name": "Post Types Order",
+   "installs": 600000,
+   "version": "2.5.9",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "constructor-return",
+     "file": "compatibility/LiteSpeed_Cache.php",
+     "line": 20,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "compatibility/formidable.php",
+     "line": 21,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    }
+   ]
+  },
+  {
+   "slug": "the-events-calendar",
+   "name": "The Events Calendar",
+   "installs": 600000,
+   "version": "6.18.2",
+   "runtime_tested": true,
+   "activate_ok": true,
+   "front_status": [
+    200,
+    200,
+    200
+   ],
+   "admin_status": [
+    200,
+    200,
+    200
+   ],
+   "findings": [
+    {
+     "kind": "namespace-constant",
+     "file": "common/src/Common/REST/Controller.php",
+     "line": 32,
+     "when": "compile",
+     "seen": "front",
+     "vendored": false,
+     "fix": "Rename the class constant (for example <code>NAMESPACE</code> to <code>REST_NAMESPACE</code>) and update the places that read it. PHP treats the name case-insensitively, so <code>NAMESPACE</code> counts."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "common/vendor/phpqrcode/qrencode.php",
+     "line": 82,
+     "when": "compile",
+     "seen": "front",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "common/vendor/phpqrcode/qrinput.php",
+     "line": 50,
+     "when": "compile",
+     "seen": "front",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "constructor-return",
+     "file": "common/vendor/phpqrcode/qrinput.php",
+     "line": 288,
+     "when": "compile",
+     "seen": "front",
+     "vendored": true,
+     "fix": "Change <code>return …;</code> inside <code>__construct()</code> to a bare <code>return;</code>. <code>new</code> always returns the object, so the value was never used."
+    },
+    {
+     "kind": "is_integer",
+     "file": "src/Tribe/Venue.php",
+     "line": 928,
+     "when": "call",
+     "call": "is_integer",
+     "code": "if ( is_integer( $event ) ) {",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>is_int()</code>."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "src/Tribe/Views/V2/Views/Traits/HTML_Cache.php",
+     "line": 204,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$key     = spl_object_hash( $context ) . '_cache_html_key';",
+     "seen": "",
+     "vendored": false,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    },
+    {
+     "kind": "spl_object_hash",
+     "file": "common/vendor/vendor-prefixed/lucatume/di52/src/Container.php",
+     "line": 685,
+     "when": "call",
+     "call": "spl_object_hash",
+     "code": "$callbackIdPrefix = is_object($id) ? spl_object_hash($id) : $id;",
+     "seen": "",
+     "vendored": true,
+     "fix": "Use <code>spl_object_id()</code>, or update the bundled library that calls it."
+    }
+   ]
+  }
+ ],
+ "messages": {
+  "constructor-return": "Deprecated: Returning a value from a constructor is deprecated",
+  "destructor-return": "Deprecated: Returning a value from a destructor is deprecated",
+  "namespace-constant": "Deprecated: Declaring class constant called 'namespace' is deprecated",
+  "guzzle-is": "Deprecated: Using \"is\" as a class name is deprecated since 8.6",
+  "is_a-string": "Deprecated: Calling is_a() with a string when $allow_string is false",
+  "spl_object_hash": "Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",
+  "is_integer": "Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",
+  "is_double": "Deprecated: Function is_double() is deprecated since 8.6, use is_float() instead",
+  "doubleval": "Deprecated: Function doubleval() is deprecated since 8.6, use floatval() instead",
+  "mbregex": "Deprecated: Function mb_ereg_replace() is deprecated since 8.6",
+  "strcoll": "Deprecated: Function strcoll() is deprecated since 8.6"
+ }
+}

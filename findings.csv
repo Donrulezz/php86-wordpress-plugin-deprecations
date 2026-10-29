@@ -1,0 +1,177 @@
+plugin,installs,version,kind,message,file,line,when
+elementor,10000000,4.3.5,constructor-return,Deprecated: Returning a value from a constructor is deprecated,modules/atomic-widgets/prop-dependencies/manager.php,49,compile
+elementor,10000000,4.3.5,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,modules/wp-rest/base/query.php,13,compile
+elementor,10000000,4.3.5,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor_prefixed/twig/twig/twig/src/NodeVisitor/SafeAnalysisNodeVisitor.php,37,call
+elementor,10000000,4.3.5,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor_prefixed/twig/twig/twig/src/NodeVisitor/SafeAnalysisNodeVisitor.php,53,call
+wordpress-seo,10000000,28.8,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor_prefixed/guzzlehttp/guzzle/src/HandlerStack.php,244,call
+wordpress-seo,10000000,28.8,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",vendor_prefixed/guzzlehttp/promises/src/Is.php,6,compile
+litespeed-cache,7000000,7.9.2,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",src/cloud-auth-callback.trait.php,396,call
+woocommerce,7000000,11.2.1,is_a-string,Deprecated: Calling is_a() with a string when $allow_string is false,includes/abstracts/abstract-wc-data.php,981,runtime
+woocommerce,7000000,11.2.1,constructor-return,Deprecated: Returning a value from a constructor is deprecated,src/Admin/API/Reports/GenericQuery.php,50,compile
+woocommerce,7000000,11.2.1,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",src/Internal/ProductDownloads/ApprovedDirectories/Admin/UI.php,209,call
+woocommerce,7000000,11.2.1,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",src/Utilities/CallbackUtil.php,46,call
+woocommerce,7000000,11.2.1,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/opis/json-schema/src/SchemaLoader.php,442,call
+google-site-kit,5000000,1.190.0,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",includes/Core/Expirables/Expirable_Items.php,125,call
+google-site-kit,5000000,1.190.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",third-party/guzzlehttp/guzzle/src/HandlerStack.php,244,call
+google-site-kit,5000000,1.190.0,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",third-party/guzzlehttp/promises/src/Is.php,6,compile
+google-site-kit,5000000,1.190.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",third-party/phpseclib/phpseclib/phpseclib/Net/SSH2.php,4746,call
+wordfence,5000000,9.0.2,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,modules/login-security/classes/controller/rest.php,8,compile
+wordfence,5000000,9.0.2,constructor-return,Deprecated: Returning a value from a constructor is deprecated,waf/pomo/streams.php,319,compile
+seo-by-rank-math,4000000,1.0.280,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,includes/modules/links/Api/class-controller.php,37,compile
+seo-by-rank-math,4000000,1.0.280,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/cmb2/cmb2/includes/CMB2_Hookup_Base.php,77,call
+seo-by-rank-math,4000000,1.0.280,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/cmb2/cmb2/includes/CMB2_Hookup_Base.php,79,call
+updraftplus,4000000,1.26.14,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",admin.php,6766,call
+updraftplus,4000000,1.26.14,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",backup.php,1828,call
+updraftplus,4000000,1.26.14,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",class-updraftplus.php,1697,call
+updraftplus,4000000,1.26.14,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",class-updraftplus.php,1703,call
+updraftplus,4000000,1.26.14,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",class-updraftplus.php,1707,call
+updraftplus,4000000,1.26.14,constructor-return,Deprecated: Returning a value from a constructor is deprecated,includes/class-zip.php,372,compile
+updraftplus,4000000,1.26.14,constructor-return,Deprecated: Returning a value from a constructor is deprecated,includes/class-zip.php,374,compile
+updraftplus,4000000,1.26.14,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php,67,call
+updraftplus,4000000,1.26.14,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php,81,call
+updraftplus,4000000,1.26.14,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php,196,call
+updraftplus,4000000,1.26.14,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php,274,call
+updraftplus,4000000,1.26.14,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/guzzlehttp/guzzle/src/HandlerStack.php,275,call
+updraftplus,4000000,1.26.14,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",vendor/guzzlehttp/promises/src/Is.php,5,compile
+updraftplus,4000000,1.26.14,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php,5554,call
+updraftplus,4000000,1.26.14,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Base.php,294,call
+updraftplus,4000000,1.26.14,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/symfony/polyfill-php72/Php72.php,94,call
+updraftplus,4000000,1.26.14,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/symfony/polyfill-php72/Php72.php,170,call
+wp-mail-smtp,4000000,4.10.3,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor_prefixed/guzzlehttp/guzzle/src/HandlerStack.php,244,call
+wp-mail-smtp,4000000,4.10.3,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",vendor_prefixed/guzzlehttp/promises/src/Is.php,6,compile
+really-simple-ssl,3000000,9.8.4,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,security/wordpress/two-fa/class-rsssl-two-factor-on-board-api.php,31,compile
+all-in-one-seo-pack,2000000,5.0.4,constructor-return,Deprecated: Returning a value from a constructor is deprecated,app/Common/Models/Model.php,144,compile
+all-in-one-seo-pack,2000000,5.0.4,constructor-return,Deprecated: Returning a value from a constructor is deprecated,app/Common/Models/Model.php,147,compile
+all-in-one-seo-pack,2000000,5.0.4,constructor-return,Deprecated: Returning a value from a constructor is deprecated,app/Common/Models/Model.php,150,compile
+all-in-one-seo-pack,2000000,5.0.4,is_a-string,Deprecated: Calling is_a() with a string when $allow_string is false,app/Common/Traits/Helpers/WpContext.php,249,runtime
+google-analytics-for-wordpress,2000000,11.3.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,includes/popular-posts/class-popular-posts-themes.php,69,compile
+google-analytics-for-wordpress,2000000,11.3.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,includes/popular-posts/class-popular-posts-themes.php,71,compile
+google-analytics-for-wordpress,2000000,11.3.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,includes/popular-posts/class-popular-posts-themes.php,75,compile
+google-analytics-for-wordpress,2000000,11.3.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lite/includes/admin/dashboard-widget.php,70,compile
+google-analytics-for-wordpress,2000000,11.3.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lite/includes/admin/dashboard-widget.php,76,compile
+complianz-gdpr,1000000,7.5.6,mbregex,Deprecated: Function mb_ereg_replace() is deprecated since 8.6,assets/vendor/mpdf/mpdf/src/Mpdf.php,1149,call
+complianz-gdpr,1000000,7.5.6,mbregex,Deprecated: Function mb_ereg_replace() is deprecated since 8.6,assets/vendor/mpdf/mpdf/src/Mpdf.php,1423,call
+complianz-gdpr,1000000,7.5.6,mbregex,Deprecated: Function mb_ereg_replace() is deprecated since 8.6,assets/vendor/mpdf/mpdf/src/Mpdf.php,1573,call
+complianz-gdpr,1000000,7.5.6,strcoll,Deprecated: Function strcoll() is deprecated since 8.6,assets/vendor/mpdf/mpdf/src/Mpdf.php,24140,call
+complianz-gdpr,1000000,7.5.6,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",assets/vendor/myclabs/deep-copy/src/DeepCopy/DeepCopy.php,191,call
+complianz-gdpr,1000000,7.5.6,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",assets/vendor/setasign/fpdi/src/FpdiTrait.php,168,call
+duplicator,1000000,5.1.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",installer/dup-installer/src/Core/Hooks/Hook.php,590,call
+duplicator,1000000,5.1.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor-prefixed/andreamk/jsonserialize/src/AbstractJsonSerializeObjData.php,279,call
+duplicator,1000000,5.1.0,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",vendor-prefixed/guzzlehttp/promises/src/Is.php,6,compile
+duplicator,1000000,5.1.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor-prefixed/phpseclib/phpseclib/phpseclib/Net/SSH2.php,4746,call
+elementskit-lite,1000000,4.0.9,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,mcp/rest-proxy.php,21,compile
+ewww-image-optimizer,1000000,8.9.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,classes/class-backup.php,70,compile
+ewww-image-optimizer,1000000,8.9.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,classes/class-js-webp.php,87,compile
+ewww-image-optimizer,1000000,8.9.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,classes/class-lazy-load.php,193,compile
+ewww-image-optimizer,1000000,8.9.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,classes/class-picture-webp.php,50,compile
+ewww-image-optimizer,1000000,8.9.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,classes/class-picture-webp.php,53,compile
+instagram-feed,1000000,6.14.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,inc/class-sb-instagram-settings.php,103,compile
+instagram-feed,1000000,6.14.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/laravel/serializable-closure/src/Serializers/Native.php,113,call
+limit-login-attempts-reloaded,1000000,3.3.10,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",core/AuthenticateHooksInspector.php,191,call
+limit-login-attempts-reloaded,1000000,3.3.10,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",core/AuthenticateHooksInspector.php,199,call
+limit-login-attempts-reloaded,1000000,3.3.10,constructor-return,Deprecated: Returning a value from a constructor is deprecated,core/CloudApp.php,59,compile
+safe-svg,1000000,2.5.2,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/enshrined/svg-sanitize/src/ElementReference/Subject.php,118,call
+safe-svg,1000000,2.5.2,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/enshrined/svg-sanitize/src/ElementReference/Subject.php,142,call
+sg-cachepress,1000000,7.8.5,constructor-return,Deprecated: Returning a value from a constructor is deprecated,core/Htaccess/Htaccess.php,85,compile
+worker,1000000,4.9.38,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",src/Gelf/Publisher.php,228,call
+worker,1000000,4.9.38,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",src/Gelf/Publisher.php,228,call
+worker,1000000,4.9.38,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",src/MWP/Http/JsonResponse.php,50,call
+worker,1000000,4.9.38,constructor-return,Deprecated: Returning a value from a constructor is deprecated,src/PHPSecLib/System/SSH/Agent.php,252,compile
+wp-smushit,1000000,4.3.5,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",core/external/hub-connector/lib/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php,4746,call
+wp-smushit,1000000,4.3.5,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor_prefixed/guzzlehttp/guzzle/src/HandlerStack.php,236,call
+wp-smushit,1000000,4.3.5,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",vendor_prefixed/guzzlehttp/promises/src/Is.php,6,compile
+redux-framework,900000,4.5.16,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",redux-core/inc/extensions/repeater/repeater/class-redux-repeater.php,238,call
+redux-framework,900000,4.5.16,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",redux-core/inc/extensions/repeater/repeater/class-redux-repeater.php,405,call
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,w3-total-cache-api.php,608,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,Cache_Memcache.php,71,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,Cache_Memcache.php,80,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,Cache_Memcached.php,63,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,Cache_Memcached.php,65,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,Cache_Memcached.php,69,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,Cache_Nginx_Memcached.php,54,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,Cache_Nginx_Memcached.php,56,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,Cache_Nginx_Memcached.php,60,compile
+w3-total-cache,900000,2.11.0,destructor-return,Deprecated: Returning a value from a destructor is deprecated,lib/Db/mssql.php,567,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lib/SNS/lib/requestcore/requestcore.class.php,225,compile
+w3-total-cache,900000,2.11.0,destructor-return,Deprecated: Returning a value from a destructor is deprecated,lib/SNS/lib/requestcore/requestcore.class.php,245,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lib/SNS/lib/requestcore/requestcore.class.php,1005,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lib/SNS/sdk.class.php,386,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lib/SNS/sdk.class.php,393,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lib/SNS/services/sns.class.php,141,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lib/SNS/services/sns.class.php,144,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lib/SNS/utilities/request.class.php,62,compile
+w3-total-cache,900000,2.11.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,lib/SNS/utilities/utilities.class.php,61,compile
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/aws/aws-crt-php/src/AWS/CRT/NativeResource.php,24,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/aws/aws-crt-php/src/AWS/CRT/NativeResource.php,40,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/aws/aws-sdk-php/src/HandlerList.php,373,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/aws/aws-sdk-php/src/TraceMiddleware.php,160,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/aws/aws-sdk-php/src/TraceMiddleware.php,171,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/aws/aws-sdk-php/src/TraceMiddleware.php,185,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/aws/aws-sdk-php/src/TraceMiddleware.php,196,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/aws/aws-sdk-php/src/TraceMiddleware.php,208,call
+w3-total-cache,900000,2.11.0,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",vendor/guzzlehttp/promises/src/Is.php,7,compile
+w3-total-cache,900000,2.11.0,is_double,"Deprecated: Function is_double() is deprecated since 8.6, use is_float() instead",vendor/microsoft/azure-storage-common/src/Common/Internal/Utilities.php,879,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/sebastian/recursion-context/src/Context.php,129,call
+w3-total-cache,900000,2.11.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/sebastian/recursion-context/src/Context.php,152,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",includes/zip/class-wpvivid-pclzip.php,299,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",includes/zip/class-wpvivid-pclzip.php,482,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",includes/zip/class-wpvivid-pclzip.php,735,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",includes/zip/class-wpvivid-pclzip.php,896,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",includes/zip/class-wpvivid-pclzip.php,1482,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",includes/zip/class-wpvivid-pclzip.php,1649,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",includes/zip/class-wpvivid-pclzip.php,1947,call
+wpvivid-backuprestore,900000,0.9.136,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php,67,call
+wpvivid-backuprestore,900000,0.9.136,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/guzzle/guzzle/src/Guzzle/Http/Exception/MultiTransferException.php,81,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php,196,call
+wpvivid-backuprestore,900000,0.9.136,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php,274,call
+wpvivid-backuprestore,900000,0.9.136,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/guzzlehttp/guzzle/src/HandlerStack.php,271,call
+wpvivid-backuprestore,900000,0.9.136,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php,5554,call
+fluentform,800000,6.2.16,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/wpfluent/framework/src/WPFluent/Database/Orm/Concerns/HasGlobalScopes.php,26,call
+fluentform,800000,6.2.16,is_double,"Deprecated: Function is_double() is deprecated since 8.6, use is_float() instead",vendor/wpfluent/framework/src/WPFluent/Database/Query/WPDBConnection.php,496,call
+fluentform,800000,6.2.16,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/wpfluent/framework/src/WPFluent/Support/Once.php,45,call
+google-listings-and-ads,800000,3.10.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/google/gax/src/Testing/MessageAwareExporter.php,42,call
+google-listings-and-ads,800000,3.10.0,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",vendor/google/protobuf/src/Google/Protobuf/Internal/GPBUtil.php,122,call
+google-listings-and-ads,800000,3.10.0,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",vendor/google/protobuf/src/Google/Protobuf/Internal/Message.php,853,call
+google-listings-and-ads,800000,3.10.0,is_double,"Deprecated: Function is_double() is deprecated since 8.6, use is_float() instead",vendor/google/protobuf/src/Google/Protobuf/Internal/Message.php,1183,call
+google-listings-and-ads,800000,3.10.0,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",vendor/google/protobuf/src/Google/Protobuf/Internal/Message.php,1183,call
+google-listings-and-ads,800000,3.10.0,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",vendor/guzzlehttp/promises/src/Is.php,7,compile
+google-listings-and-ads,800000,3.10.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php,5554,call
+google-listings-and-ads,800000,3.10.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/symfony/validator/Context/ExecutionContext.php,362,call
+google-listings-and-ads,800000,3.10.0,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",vendor/symfony/validator/Validator/RecursiveContextualValidator.php,773,call
+woocommerce-paypal-payments,800000,4.2.0,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,modules/ppcp-settings/src/Endpoint/RestEndpoint.php,21,compile
+woocommerce-paypal-payments,800000,4.2.0,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,modules/ppcp-store-sync/src/Endpoint/AgenticRestEndpoint.php,39,compile
+woocommerce-paypal-payments,800000,4.2.0,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,modules/ppcp-wc-gateway/src/Endpoint/ShippingCallbackEndpoint.php,19,compile
+woocommerce-paypal-payments,800000,4.2.0,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,modules/ppcp-webhooks/src/IncomingWebhookEndpoint.php,27,compile
+better-wp-security,700000,10.0.6,constructor-return,Deprecated: Returning a value from a constructor is deprecated,core/modules/two-factor/providers/class.two-factor-backup-codes.php,53,compile
+better-wp-security,700000,10.0.6,constructor-return,Deprecated: Returning a value from a constructor is deprecated,core/modules/two-factor/providers/class.two-factor-email.php,39,compile
+creame-whatsapp-me,700000,6.4.2,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,includes/class-joinchat-abilities.php,25,compile
+duracelltomi-google-tag-manager,700000,2.0.6,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,src/Modules/WooCommerce/StoreApiData.php,35,compile
+fluent-smtp,700000,2.4.1,constructor-return,Deprecated: Returning a value from a constructor is deprecated,app/Services/Html2Text.php,241,compile
+fluent-smtp,700000,2.4.1,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",includes/libs/google-api-client/build/vendor/guzzlehttp/guzzle/src/HandlerStack.php,236,call
+fluent-smtp,700000,2.4.1,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",includes/libs/google-api-client/build/vendor/guzzlehttp/promises/src/Is.php,6,compile
+fluent-smtp,700000,2.4.1,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",includes/libs/google-api-client/build/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php,4670,call
+mainwp-child,700000,6.3,mbregex,Deprecated: Function mb_ereg_replace() is deprecated since 8.6,class/class-mainwp-helper.php,905,call
+mainwp-child,700000,6.3,mbregex,Deprecated: Function mb_ereg_replace() is deprecated since 8.6,class/class-mainwp-helper.php,907,call
+mainwp-child,700000,6.3,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php,5554,call
+backuply,600000,1.6.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,backuplytar.php,66,compile
+backuply,600000,1.6.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,backuplytar.php,83,compile
+backuply,600000,1.6.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,restore_ins.php,295,compile
+backuply,600000,1.6.0,constructor-return,Deprecated: Returning a value from a constructor is deprecated,restore_ins.php,312,compile
+backuply,600000,1.6.0,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",lib/ftp.php,262,call
+coming-soon,600000,6.20.10,constructor-return,Deprecated: Returning a value from a constructor is deprecated,app/render-csp-mm.php,34,compile
+coming-soon,600000,6.20.10,constructor-return,Deprecated: Returning a value from a constructor is deprecated,app/render-csp-mm.php,45,compile
+enable-media-replace,600000,4.2.3,constructor-return,Deprecated: Returning a value from a constructor is deprecated,build/shortpixel/filesystem/src/Model/File/FileModel.php,62,compile
+enable-media-replace,600000,4.2.3,constructor-return,Deprecated: Returning a value from a constructor is deprecated,build/shortpixel/replacer2/src/Modules/SmartSlider.php,34,compile
+forminator,600000,1.58.3,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",addons/pro/googlesheet/lib/external/vendor-prefixed/guzzlehttp/guzzle/src/HandlerStack.php,236,call
+forminator,600000,1.58.3,guzzle-is,"Deprecated: Using ""is"" as a class name is deprecated since 8.6",addons/pro/googlesheet/lib/external/vendor-prefixed/guzzlehttp/promises/src/Is.php,6,compile
+forminator,600000,1.58.3,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",addons/pro/googlesheet/lib/external/vendor-prefixed/phpseclib/phpseclib/phpseclib/Net/SSH2.php,4558,call
+forminator,600000,1.58.3,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",library/lib/hub-connector/lib/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php,4746,call
+post-types-order,600000,2.5.9,constructor-return,Deprecated: Returning a value from a constructor is deprecated,compatibility/LiteSpeed_Cache.php,20,compile
+post-types-order,600000,2.5.9,constructor-return,Deprecated: Returning a value from a constructor is deprecated,compatibility/formidable.php,21,compile
+the-events-calendar,600000,6.18.2,namespace-constant,Deprecated: Declaring class constant called 'namespace' is deprecated,common/src/Common/REST/Controller.php,32,compile
+the-events-calendar,600000,6.18.2,constructor-return,Deprecated: Returning a value from a constructor is deprecated,common/vendor/phpqrcode/qrencode.php,82,compile
+the-events-calendar,600000,6.18.2,constructor-return,Deprecated: Returning a value from a constructor is deprecated,common/vendor/phpqrcode/qrinput.php,50,compile
+the-events-calendar,600000,6.18.2,constructor-return,Deprecated: Returning a value from a constructor is deprecated,common/vendor/phpqrcode/qrinput.php,288,compile
+the-events-calendar,600000,6.18.2,is_integer,"Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead",src/Tribe/Venue.php,928,call
+the-events-calendar,600000,6.18.2,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",src/Tribe/Views/V2/Views/Traits/HTML_Cache.php,204,call
+the-events-calendar,600000,6.18.2,spl_object_hash,"Deprecated: Function spl_object_hash() is deprecated since 8.6, consider using spl_object_id() instead",common/vendor/vendor-prefixed/lucatume/di52/src/Container.php,685,call
