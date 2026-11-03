@@ -81,5 +81,9 @@ that came out clean.
 Each plugin's findings with the fix are at [deadlinefix.com/php-8-6-wordpress-plugins](https://deadlinefix.com/php-8-6-wordpress-plugins).
 A free plugin, PHP Upgrade Readiness, runs the same checks on your own site's plugins and theme.
 
+Site already broken after a PHP or plugin update? [Fixed for you, $49](https://deadlinefix.com/go/buy-wp-fix): I work from
+a backup of your site (no logins needed), find the plugin or theme line that breaks, test the fix on a private copy and
+send you the fixed files with the steps within 48 hours.
+
 Data: CC BY 4.0. Plugin names belong to their authors; this is an independent test, not affiliated with WordPress.org or
 the PHP project. Spotted a false positive or a fix that shipped? Open an issue with the plugin version.
