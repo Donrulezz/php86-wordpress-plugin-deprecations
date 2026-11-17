@@ -3,6 +3,8 @@
 **39 of the 100 most popular WordPress.org plugins use something PHP 8.6 deprecates.
 Every file and line, tested on PHP 8.6.0RC4 with WordPress 7.1.1 on 28 October 2026.**
 
+**Re-checked on 17 November 2026, two days before the release: still 39 of 100.** See [the re-check](#re-check-17-november-2026).
+
 PHP 8.6 is released on 19 November 2026. A deprecation is not an error: the plugin keeps working, but sites with
 `WP_DEBUG` on fill their logs, some hosts show the notices, and the code breaks in PHP 9. Plugin authors and site owners
 can use this list to see what to fix or to check before upgrading.
@@ -77,6 +79,64 @@ can use this list to see what to fix or to check before upgrading.
 
 `findings.csv` has one row per finding (file, line, when it fires); `results.json` is the full data, including the plugins
 that came out clean.
+
+## Re-check, 17 November 2026
+
+The same token rules were run again on the current release of the same 100 plugins (55,885 PHP files).
+`php -l` and the WordPress run were not repeated, so this re-check is static only. On the listed plugins whose version did
+not change it gave the same files and lines as the October test.
+
+- 65 of the 100 plugins shipped a new version since 28 October.
+- 30 of the 39 plugins listed above shipped a new version. Deprecations removed: `wordfence` (9.0.2 to 9.1.1).
+- Joined the list: `svg-support` 2.6.4.
+- Still 39 of 100, with 178 findings. 98 of them are inside bundled libraries (Guzzle, Monolog, mPDF,
+  svg-sanitize and others); for 10 plugins every finding is in a bundled library, so the fix is a newer library version
+  and a rebuilt vendor folder, not a change in the plugin's own code.
+
+| Plugin | Installs | Version 28 Oct | Version 17 Nov | Findings | In bundled libraries |
+|---|---|---|---|---|---|
+| [elementor](https://wordpress.org/plugins/elementor/) | 10,000,000+ | 4.3.5 | 4.4.1 | 4 | 2 |
+| [wordpress-seo](https://wordpress.org/plugins/wordpress-seo/) | 10,000,000+ | 28.8 | 28.8 | 2 | 2 |
+| [litespeed-cache](https://wordpress.org/plugins/litespeed-cache/) | 7,000,000+ | 7.9.2 | 7.9.3 | 1 | 0 |
+| [woocommerce](https://wordpress.org/plugins/woocommerce/) | 7,000,000+ | 11.2.1 | 11.3.0 | 4 | 1 |
+| [google-site-kit](https://wordpress.org/plugins/google-site-kit/) | 5,000,000+ | 1.190.0 | 1.192.0 | 4 | 3 |
+| [seo-by-rank-math](https://wordpress.org/plugins/seo-by-rank-math/) | 4,000,000+ | 1.0.280 | 1.0.282 | 3 | 2 |
+| [updraftplus](https://wordpress.org/plugins/updraftplus/) | 4,000,000+ | 1.26.14 | 1.26.14 | 17 | 10 |
+| [wp-mail-smtp](https://wordpress.org/plugins/wp-mail-smtp/) | 4,000,000+ | 4.10.3 | 4.10.4 | 2 | 2 |
+| [really-simple-ssl](https://wordpress.org/plugins/really-simple-ssl/) | 3,000,000+ | 9.8.4 | 9.8.4 | 1 | 0 |
+| [all-in-one-seo-pack](https://wordpress.org/plugins/all-in-one-seo-pack/) | 2,000,000+ | 5.0.4 | 5.0.5.1 | 3 | 0 |
+| [google-analytics-for-wordpress](https://wordpress.org/plugins/google-analytics-for-wordpress/) | 2,000,000+ | 11.3.0 | 11.3.0 | 5 | 0 |
+| [complianz-gdpr](https://wordpress.org/plugins/complianz-gdpr/) | 1,000,000+ | 7.5.6 | 7.5.7 | 6 | 6 |
+| [duplicator](https://wordpress.org/plugins/duplicator/) | 1,000,000+ | 5.1.0 | 5.2.0 | 4 | 3 |
+| [elementskit-lite](https://wordpress.org/plugins/elementskit-lite/) | 1,000,000+ | 4.0.9 | 4.1.0 | 1 | 0 |
+| [ewww-image-optimizer](https://wordpress.org/plugins/ewww-image-optimizer/) | 1,000,000+ | 8.9.0 | 8.9.2 | 5 | 0 |
+| [instagram-feed](https://wordpress.org/plugins/instagram-feed/) | 1,000,000+ | 6.14.0 | 6.16.0 | 2 | 1 |
+| [limit-login-attempts-reloaded](https://wordpress.org/plugins/limit-login-attempts-reloaded/) | 1,000,000+ | 3.3.10 | 3.4.3 | 3 | 0 |
+| [safe-svg](https://wordpress.org/plugins/safe-svg/) | 1,000,000+ | 2.5.2 | 2.5.2 | 2 | 2 |
+| [sg-cachepress](https://wordpress.org/plugins/sg-cachepress/) | 1,000,000+ | 7.8.5 | 7.8.6 | 1 | 0 |
+| [svg-support](https://wordpress.org/plugins/svg-support/) | 1,000,000+ | 2.6.1 | 2.6.4 | 2 | 2 |
+| [worker](https://wordpress.org/plugins/worker/) | 1,000,000+ | 4.9.38 | 4.9.39 | 4 | 0 |
+| [wp-smushit](https://wordpress.org/plugins/wp-smushit/) | 1,000,000+ | 4.3.5 | 4.3.7 | 3 | 3 |
+| [redux-framework](https://wordpress.org/plugins/redux-framework/) | 900,000+ | 4.5.16 | 4.5.18 | 2 | 0 |
+| [w3-total-cache](https://wordpress.org/plugins/w3-total-cache/) | 900,000+ | 2.11.0 | 2.11.0 | 31 | 22 |
+| [wpvivid-backuprestore](https://wordpress.org/plugins/wpvivid-backuprestore/) | 900,000+ | 0.9.136 | 0.9.140 | 17 | 10 |
+| [fluentform](https://wordpress.org/plugins/fluentform/) | 800,000+ | 6.2.16 | 6.2.17 | 3 | 3 |
+| [google-listings-and-ads](https://wordpress.org/plugins/google-listings-and-ads/) | 800,000+ | 3.10.0 | 3.10.1 | 9 | 9 |
+| [better-wp-security](https://wordpress.org/plugins/better-wp-security/) | 700,000+ | 10.0.6 | 10.0.6.1 | 2 | 0 |
+| [creame-whatsapp-me](https://wordpress.org/plugins/creame-whatsapp-me/) | 700,000+ | 6.4.2 | 6.4.4 | 1 | 0 |
+| [duracelltomi-google-tag-manager](https://wordpress.org/plugins/duracelltomi-google-tag-manager/) | 700,000+ | 2.0.6 | 2.1.1 | 1 | 0 |
+| [fluent-smtp](https://wordpress.org/plugins/fluent-smtp/) | 700,000+ | 2.4.1 | 2.4.5 | 4 | 3 |
+| [mainwp-child](https://wordpress.org/plugins/mainwp-child/) | 700,000+ | 6.3 | 6.4.2 | 3 | 1 |
+| [woocommerce-paypal-payments](https://wordpress.org/plugins/woocommerce-paypal-payments/) | 700,000+ | 4.2.0 | 4.2.2 | 4 | 0 |
+| [backuply](https://wordpress.org/plugins/backuply/) | 600,000+ | 1.6.0 | 1.6.0 | 5 | 1 |
+| [coming-soon](https://wordpress.org/plugins/coming-soon/) | 600,000+ | 6.20.10 | 6.20.12 | 2 | 0 |
+| [enable-media-replace](https://wordpress.org/plugins/enable-media-replace/) | 600,000+ | 4.2.3 | 4.2.3 | 2 | 2 |
+| [forminator](https://wordpress.org/plugins/forminator/) | 600,000+ | 1.58.3 | 1.58.4 | 4 | 4 |
+| [post-types-order](https://wordpress.org/plugins/post-types-order/) | 600,000+ | 2.5.9 | 2.5.9 | 2 | 0 |
+| [the-events-calendar](https://wordpress.org/plugins/the-events-calendar/) | 600,000+ | 6.18.2 | 6.18.4 | 7 | 4 |
+
+`recheck-2026-11-17.csv` has one row per finding; `recheck-2026-11-17.json` also lists the plugins that came out clean, with
+both versions. The tables above this section stay as tested on 28 October.
 
 Each plugin's findings with the fix are at [deadlinefix.com/php-8-6-wordpress-plugins](https://deadlinefix.com/php-8-6-wordpress-plugins).
 A free plugin, PHP Upgrade Readiness, runs the same checks on your own site's plugins and theme.
