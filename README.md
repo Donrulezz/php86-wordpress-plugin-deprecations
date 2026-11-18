@@ -138,6 +138,34 @@ not change it gave the same files and lines as the October test.
 `recheck-2026-11-17.csv` has one row per finding; `recheck-2026-11-17.json` also lists the plugins that came out clean, with
 both versions. The tables above this section stay as tested on 28 October.
 
+### Bundled guzzlehttp/promises: own copy or shared (17 November 2026)
+
+Each plugin was tested alone, so the test cannot show which copy wins when several plugins on one site bundle the same
+library (thanks to the reader who pointed this out). A plugin that prefixes its vendor folder (Strauss, PHP-Scoper) always
+loads its own copy. A plugin that keeps the original `GuzzleHttp\Promise` namespace shares it: the first copy autoloaded
+serves every plugin that uses that namespace.
+
+- 11 of the 100 plugins bundle guzzlehttp/promises; 10 of those copies contain the `Is` class.
+- 8 of the 10 prefix their copy. 2 keep the shared namespace: `updraftplus` and `w3-total-cache`.
+- 0 of the 11 bundled copies have the `State` class that guzzlehttp/promises 2.6.0 and 3.1.0 added.
+
+| Plugin | Version | Namespace of the bundled copy | Own or shared | Has `Is` class |
+|---|---|---|---|---|
+| [wordpress-seo](https://wordpress.org/plugins/wordpress-seo/) | 28.8 | `YoastSEO_Vendor\GuzzleHttp\Promise` | own (prefixed) | yes |
+| [google-site-kit](https://wordpress.org/plugins/google-site-kit/) | 1.192.0 | `Google\Site_Kit_Dependencies\GuzzleHttp\Promise` | own (prefixed) | yes |
+| [updraftplus](https://wordpress.org/plugins/updraftplus/) | 1.26.14 | `GuzzleHttp\Promise` | **shared** | yes |
+| [wp-mail-smtp](https://wordpress.org/plugins/wp-mail-smtp/) | 4.10.4 | `WPMailSMTP\Vendor\GuzzleHttp\Promise` | own (prefixed) | yes |
+| [duplicator](https://wordpress.org/plugins/duplicator/) | 5.2.0 | `VendorDuplicator\GuzzleHttp\Promise` | own (prefixed) | yes |
+| [wp-smushit](https://wordpress.org/plugins/wp-smushit/) | 4.3.7 | `Smush_Vendor\GuzzleHttp\Promise` | own (prefixed) | yes |
+| [w3-total-cache](https://wordpress.org/plugins/w3-total-cache/) | 2.11.0 | `GuzzleHttp\Promise` | **shared** | yes |
+| [wpvivid-backuprestore](https://wordpress.org/plugins/wpvivid-backuprestore/) | 0.9.140 | `WPvividGuzzleHttp\Promise` | own (prefixed) | no |
+| [google-listings-and-ads](https://wordpress.org/plugins/google-listings-and-ads/) | 3.10.1 | `Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise` | own (prefixed) | yes |
+| [fluent-smtp](https://wordpress.org/plugins/fluent-smtp/) | 2.4.5 | `FluentSmtpLib\GuzzleHttp\Promise` | own (prefixed) | yes |
+| [forminator](https://wordpress.org/plugins/forminator/) | 1.58.4 | `ForminatorGoogleAddon\GuzzleHttp\Promise` | own (prefixed) | yes |
+
+`guzzle-promises-copies-2026-11-17.csv` has the folder of each copy. Read from the files of the 17 November releases;
+plugins outside the top 100 on the same site can add more shared copies.
+
 Each plugin's findings with the fix are at [deadlinefix.com/php-8-6-wordpress-plugins](https://deadlinefix.com/php-8-6-wordpress-plugins).
 A free plugin, PHP Upgrade Readiness, runs the same checks on your own site's plugins and theme.
 

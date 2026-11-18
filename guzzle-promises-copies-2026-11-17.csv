@@ -1,0 +1,12 @@
+plugin,installs,version,folder,namespace,prefixed,has_Is_class,has_State_class
+wordpress-seo,10000000,28.8,vendor_prefixed/guzzlehttp/promises/src,YoastSEO_Vendor\GuzzleHttp\Promise,yes,yes,no
+google-site-kit,5000000,1.192.0,third-party/guzzlehttp/promises/src,Google\Site_Kit_Dependencies\GuzzleHttp\Promise,yes,yes,no
+updraftplus,4000000,1.26.14,vendor/guzzlehttp/promises/src,GuzzleHttp\Promise,no,yes,no
+wp-mail-smtp,4000000,4.10.4,vendor_prefixed/guzzlehttp/promises/src,WPMailSMTP\Vendor\GuzzleHttp\Promise,yes,yes,no
+duplicator,1000000,5.2.0,vendor-prefixed/guzzlehttp/promises/src,VendorDuplicator\GuzzleHttp\Promise,yes,yes,no
+wp-smushit,1000000,4.3.7,vendor_prefixed/guzzlehttp/promises/src,Smush_Vendor\GuzzleHttp\Promise,yes,yes,no
+w3-total-cache,900000,2.11.0,vendor/guzzlehttp/promises/src,GuzzleHttp\Promise,no,yes,no
+wpvivid-backuprestore,900000,0.9.140,vendor/guzzlehttp/promises/src,WPvividGuzzleHttp\Promise,yes,no,no
+google-listings-and-ads,800000,3.10.1,vendor/guzzlehttp/promises/src,Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise,yes,yes,no
+fluent-smtp,700000,2.4.5,includes/libs/google-api-client/build/vendor/guzzlehttp/promises/src,FluentSmtpLib\GuzzleHttp\Promise,yes,yes,no
+forminator,600000,1.58.4,addons/pro/googlesheet/lib/external/vendor-prefixed/guzzlehttp/promises/src,ForminatorGoogleAddon\GuzzleHttp\Promise,yes,yes,no
