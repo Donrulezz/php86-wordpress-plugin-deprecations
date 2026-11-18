@@ -469,7 +469,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     }
    ]
   },
@@ -623,7 +623,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     },
     {
      "kind": "spl_object_hash",
@@ -880,7 +880,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     },
     {
      "kind": "spl_object_hash",
@@ -964,7 +964,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     }
    ]
   },
@@ -1252,7 +1252,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     },
     {
      "kind": "spl_object_hash",
@@ -1632,7 +1632,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     }
    ]
   },
@@ -1962,7 +1962,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     },
     {
      "kind": "is_double",
@@ -2295,7 +2295,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     },
     {
      "kind": "spl_object_hash",
@@ -2529,7 +2529,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     },
     {
      "kind": "spl_object_hash",
@@ -2776,7 +2776,7 @@
      "when": "compile",
      "seen": "",
      "vendored": true,
-     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 3.1.0 (released 18 October 2026), which uses the new <code>State</code> class internally."
+     "fix": "This is the bundled Guzzle Promises library's <code>Is</code> class. Update the bundled <code>guzzlehttp/promises</code> to 2.6.0 or 3.1.0 (released 18 October 2026), which use the new <code>State</code> class internally."
     },
     {
      "kind": "spl_object_hash",
