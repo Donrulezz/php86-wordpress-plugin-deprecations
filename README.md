@@ -3,7 +3,7 @@
 **39 of the 100 most popular WordPress.org plugins use something PHP 8.6 deprecates.
 Every file and line, tested on PHP 8.6.0RC4 with WordPress 7.1.1 on 28 October 2026.**
 
-**PHP 8.6.0 came out on 19 November 2026. None of the 39 listed plugins has left the list: 8 of them shipped a new version since 17 November and all of their findings are still there.** See [release day](#release-day-19-november-2026).
+**PHP 8.6.0 came out on 19 November 2026. Re-run on the final build that day: 39 of 100, 178 findings, the same as on 17 November; PHP's own compile-time messages match.** See [release day](#release-day-19-november-2026).
 
 **Re-checked on 17 November 2026, two days before the release: still 39 of 100.** See [the re-check](#re-check-17-november-2026).
 
@@ -85,20 +85,21 @@ that came out clean.
 ## Release day, 19 November 2026
 
 PHP 8.6.0 was released on 19 November 2026 ([announcement](https://www.php.net/releases/8_6_0.php)). Section 4 (deprecations) of `UPGRADING`
-at tag `php-8.6.0` is the same as at tag `php-8.6.0RC4`, line for line, so the kinds tested here on RC4 are the kinds the
-final release deprecates. The plugins were not run again on the final build.
+at tag `php-8.6.0` is the same as at tag `php-8.6.0RC4`, line for line.
 
-What changed in the plugins between 17 and 19 November. This is a file comparison of the two releases, not a new scan:
+The static part of the test was run again that day on the final build (official PHP 8.6.0 for Windows, checksum checked)
+and the current release of the same 100 plugins (55,989 PHP files):
 
-- 20 of the 100 plugins shipped a new version. 8 of the 39 listed plugins are among them:
-  `coming-soon` (6.20.12 to 6.20.13), `elementskit-lite` (4.1.0 to 4.2.0), `forminator` (1.58.4 to 1.58.6), `limit-login-attempts-reloaded` (3.4.3 to 3.4.5), `mainwp-child` (6.4.2 to 6.5), `the-events-calendar` (6.18.4 to 6.18.4.1), `updraftplus` (1.26.14 to 1.26.16), `wordpress-seo` (28.8 to 28.9).
-- All 39 findings of those 8 plugins are still in the new releases: 32 in files that did not change at all, 7 in changed files where the flagged line is still present.
-- In the PHP files that changed or were added in the 20 new releases, a text search found no new call to a function
-  PHP 8.6 deprecates, no new class named `Is` and no new `namespace` class constant. A value returned from a constructor in
-  those files was not re-checked: that needs the tokenizer.
-- So no plugin left the list (39 of the 39 remain), and the text search found none that joined it.
+- Token scan of every file, same rules as before: **39 of 100 plugins, 178 findings**, the same as on 17 November.
+- `php -l` with the final build on 54,068 files: PHP's own compile-time messages name exactly the places the
+  token scan found (54 constructor returns, 2 destructor returns, 11 `namespace` class constants,
+  10 classes named `Is`). The other 1,921 files have paths too long to pass to php.exe on Windows; the token
+  scan covers them.
+- 20 of the 100 plugins shipped a new version between 17 and 19 November, 8 of the 39 listed:
+  `coming-soon` (6.20.12 to 6.20.13), `elementskit-lite` (4.1.0 to 4.2.0), `forminator` (1.58.4 to 1.58.6), `limit-login-attempts-reloaded` (3.4.3 to 3.4.5), `mainwp-child` (6.4.2 to 6.5), `the-events-calendar` (6.18.4 to 6.18.4.1), `updraftplus` (1.26.14 to 1.26.16), `wordpress-seo` (28.8 to 28.9). None of them removed or added a finding.
+- WordPress was not run on the final build, so the run-time results (which notices show on a normal page load) are still from RC4.
 
-`release-day-2026-11-19.json` has the version changes and the status of each finding.
+`recheck-2026-11-19.csv` has one row per finding; `recheck-2026-11-19.json` also lists the clean plugins with both versions.
 
 ## Re-check, 17 November 2026
 
